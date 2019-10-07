@@ -25,35 +25,14 @@ public class File
 		return "";
 	}
 
-	public JToken GetCards(string json)
-	{
-		var data = JObject.Parse(json);
-		return data["cards"];
-	}
-
 	public IEnumerable<JToken> GetCards(string json, string listName)
 	{
-		string idList = "";
-		foreach (var list in JObject.Parse(json)["lists"])
-		{
-			if (list["name"].Value<string>() == listName)
-			{
-				idList = list["id"].Value<string>();
-				Debug.Log("got it: " + idList);
-				break;
-			}
-		}
+		var contents = JObject.Parse(json);
 
-		var cards = GetCards(json);
-		return cards.Where(card => card["idList"].Value<string>() == idList);
+		var lists = contents["lists"];
+		var idList = lists.First(list => list["name"].Value<string>().Equals(listName))["id"].Value<string>();
 
-
-		// foreach (var card in cards)
-		// {
-		// 	if (card["idList"].Value<string>() == idList)
-		// 		return card;
-		// }
-
-		// throw new Exception("u fucked up");
+		var cards = contents["cards"];
+		return cards.Where(card => card["idList"].Value<string>().Equals(idList));
 	}
 }
