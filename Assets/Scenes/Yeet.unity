@@ -314,6 +314,7 @@ GameObject:
   - component: {fileID: 1860689277}
   - component: {fileID: 1860689276}
   - component: {fileID: 1860689278}
+  - component: {fileID: 1860689279}
   m_Layer: 5
   m_Name: TopicText
   m_TagString: Untagged
@@ -335,10 +336,10 @@ RectTransform:
   m_Father: {fileID: 406840493}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 361.8, y: 133.4}
+  m_SizeDelta: {x: -56, y: -56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860689276
 MonoBehaviour:
@@ -362,13 +363,13 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: e02f6b58d30d16ad896dd03464c63369, type: 3}
     m_FontSize: 84
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 84
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: TopicText
@@ -393,8 +394,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.12941177}
-  m_EffectDistance: {x: 2.99, y: -2.5}
+  m_EffectDistance: {x: 1.96, y: -1.87}
   m_UseGraphicAlpha: 1
+--- !u!114 &1860689279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860689274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1717a1e60957ef7a840792beb68b38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1891262633
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1891262634
 MonoBehaviour:
   m_ObjectHideFlags: 0

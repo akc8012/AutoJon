@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Yeet : MonoBehaviour
 {
-	void Awake()
+	void Start()
 	{
 		var file = new File();
 		var contents = file.Read("Data/trello-data-10-7.json");
