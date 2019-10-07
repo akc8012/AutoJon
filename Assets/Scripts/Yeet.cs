@@ -5,9 +5,6 @@ public class Yeet : MonoBehaviour
 {
 	void Awake()
 	{
-		var json = JObject.Parse("{\"message\": \"waddup\"}");
-		Debug.Log(json["message"].Value<string>());
-
 		var file = new File();
 		var contents = file.Read("Data/trello-data-10-7.json");
 
