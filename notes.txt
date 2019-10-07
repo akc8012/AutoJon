@@ -10,3 +10,5 @@ TODO:
     Random interval
     Load JSON path 
     Colors
+    Fullscreen button
+    Quit button
