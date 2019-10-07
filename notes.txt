@@ -1,3 +1,6 @@
 The only JSON data we need is in 'cards' and 'lists'
 Need to cross-reference 'idList' in card against 'id' in 'lists'
 
+
+TODO:
+  Set up debugger for Unity
