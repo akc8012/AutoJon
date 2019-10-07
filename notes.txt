@@ -6,4 +6,7 @@ TODO:
   Get NUnit working pls
   Set up debugger for Unity
   File should not expose Newtonsoft (ex: return IEnumerable<string>)
-
+  Popup menu on escape
+    Random interval
+    Load JSON path 
+    Colors
