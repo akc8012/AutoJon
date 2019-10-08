@@ -7,6 +7,9 @@ using System.Linq;
 [RequireComponent(typeof(Text))]
 public class TopicText : MonoBehaviour
 {
+	[SerializeField]
+	bool ShowIndex = true;
+
 	Text Text;
 	List<string> Topics = new List<string>();
 	int TopicIndex = 0;
@@ -30,19 +33,32 @@ public class TopicText : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetKeyDown("right"))
-			TopicIndex++;
-		else if (Input.GetKeyDown("left"))
-			TopicIndex--;
-
-		if (TopicIndex >= Topics.Count)
-			TopicIndex = 0;
-		else if (TopicIndex < 0)
-			TopicIndex = Topics.Count - 1;
-
-		SetTopic(TopicIndex);
+		var directionKeyInput = GetDirectionKeyInput();
+		if (directionKeyInput != TopicIndex)
+			SetTopic(directionKeyInput);
 	}
 
-	void SetTopic(int index) => SetText($"{TopicIndex}: {Topics[TopicIndex]}");
+	int GetDirectionKeyInput()
+	{
+		var index = TopicIndex;
+		if (Input.GetKeyDown("right"))
+			index++;
+		else if (Input.GetKeyDown("left"))
+			index--;
+
+		return index;
+	}
+
+	void SetTopic(int index)
+	{
+		if (index >= Topics.Count)
+			index = 0;
+		else if (index < 0)
+			index = Topics.Count - 1;
+
+		TopicIndex = index;
+		SetText(ShowIndex ? $"{TopicIndex}: {Topics[TopicIndex]}" : Topics[TopicIndex]);
+	}
+
 	void SetText(string text) => Text.text = text;
 }

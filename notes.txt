@@ -17,3 +17,5 @@ TODO:
 
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
+
+  Encapsulate TopicIndex into something
