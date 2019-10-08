@@ -5,7 +5,6 @@ Need to cross-reference 'idList' in card against 'id' in 'lists'
 TODO:
   Get NUnit working pls
   Set up debugger for Unity
-  File should not expose Newtonsoft (ex: return IEnumerable<string>)
   Encapsulate TopicIndex into something
   Popup menu on escape
     Random interval
