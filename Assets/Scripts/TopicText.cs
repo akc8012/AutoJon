@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Collections;
-using Newtonsoft.Json.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
@@ -20,18 +19,11 @@ public class TopicText : MonoBehaviour
 	{
 		Text = GetComponent<Text>();
 
-		var file = new File();
-		var contents = file.Read("Data/trello-data-10-7.json");
+		var trelloData = new TrelloData();
+		trelloData.Load("Data/trello-data-10-7.json");
 
-		foreach (var card in file.GetCards(contents, "Topics 10/11/19"))
-		{
-			var name = card["name"].Value<string>();
-			Topics.Add(name);
-		}
-
+		Topics = trelloData.GetTopics("Topics 10/11/19").ToList();
 		Topics = ShuffleList(Topics);
-		Topics.ForEach(topic => Debug.Log(topic));
-
 		SetTopic(TopicIndex);
 	}
 
