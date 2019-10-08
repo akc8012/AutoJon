@@ -6,9 +6,14 @@ TODO:
   Get NUnit working pls
   Set up debugger for Unity
   File should not expose Newtonsoft (ex: return IEnumerable<string>)
+  Timer couroutine
   Popup menu on escape
     Random interval
-    Load JSON path 
+    Load JSON path + List name
+      Error panel (for file / json errors)
     Colors
     Fullscreen button
     Quit button
+
+  Boot screen (Welcome to The AutoJon, with version number?)
+  Sound effects
