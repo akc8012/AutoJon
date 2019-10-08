@@ -6,7 +6,7 @@ TODO:
   Get NUnit working pls
   Set up debugger for Unity
   File should not expose Newtonsoft (ex: return IEnumerable<string>)
-  Timer couroutine
+  Encapsulate TopicIndex into something
   Popup menu on escape
     Random interval
     Load JSON path + List name
@@ -14,8 +14,8 @@ TODO:
     Colors
     Fullscreen button
     Quit button
+  Pause button (regardless of popup menu state)
 
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
 
-  Encapsulate TopicIndex into something

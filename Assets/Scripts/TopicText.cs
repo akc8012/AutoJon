@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class TopicText : MonoBehaviour
 
 	Text Text;
 	List<string> Topics = new List<string>();
+	System.Random RandomGenerator = new System.Random();
 	int TopicIndex = 0;
 
 	void Awake()
@@ -27,8 +29,24 @@ public class TopicText : MonoBehaviour
 			Topics.Add(name);
 		}
 
+		Topics = ShuffleList(Topics);
 		Topics.ForEach(topic => Debug.Log(topic));
+
 		SetTopic(TopicIndex);
+	}
+
+	void OnEnable() => StartCoroutine("SetTopicAfterSeconds");
+	void OnDisable() => StopCoroutine("SetTopicAfterSeconds");
+
+	IEnumerator SetTopicAfterSeconds()
+	{
+		const int waitSeconds = 3;
+
+		while (true)
+		{
+			yield return new WaitForSeconds(waitSeconds);
+			SetTopic(TopicIndex + 1);
+		}
 	}
 
 	void Update()
@@ -41,7 +59,7 @@ public class TopicText : MonoBehaviour
 	int GetDirectionKeyInput()
 	{
 		var index = TopicIndex;
-		if (Input.GetKeyDown("right"))
+		if (Input.GetKeyDown("right") || Input.GetKeyDown("space"))
 			index++;
 		else if (Input.GetKeyDown("left"))
 			index--;
@@ -61,4 +79,19 @@ public class TopicText : MonoBehaviour
 	}
 
 	void SetText(string text) => Text.text = text;
+
+	// https://stackoverflow.com/a/1262619
+	List<T> ShuffleList<T>(List<T> list)
+	{
+		int n = list.Count;
+		while (n > 1)
+		{
+			n--;
+			int k = RandomGenerator.Next(n + 1);
+			var value = list[k];
+			list[k] = list[n];
+			list[n] = value;
+		}
+		return list;
+	}
 }

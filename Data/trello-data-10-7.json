@@ -162,16 +162,403 @@
 		"black": ""
 	},
 	"powerUps": [],
-	"dateLastActivity": "2019-10-07T13:26:41.464Z",
-	"dateLastView": "2019-10-07T17:29:19.100Z",
+	"dateLastActivity": "2019-10-07T23:16:19.919Z",
+	"dateLastView": "2019-10-07T23:21:20.604Z",
 	"shortUrl": "https://trello.com/b/GJRydlFx",
 	"idTags": [],
 	"datePluginDisable": null,
 	"creationMethod": null,
-	"ixUpdate": "845",
+	"ixUpdate": "869",
 	"templateGallery": null,
 	"enterpriseOwned": false,
 	"actions": [
+		{
+			"id": "5d9bc74328549b5bd6d3a34f",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"desc": ""
+				},
+				"card": {
+					"desc": "https://gonintendo.com/stories/346302-nintendo-live-2019-may-be-cancelled-depends-of-course-typhoon-ha",
+					"id": "5d9bc72c43c4fe279f05d7d5",
+					"name": "Nintendo Live 2019 may be cancelled, depends on TYPHOON HAGIBIS",
+					"idShort": 123,
+					"shortLink": "mzaxNZpF"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:16:19.929Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc73a0bd5964fd3e6be94",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"pos": 98303
+				},
+				"card": {
+					"pos": 30719.53125,
+					"id": "5d9b3d1140719123c080730d",
+					"name": "Kirby has died",
+					"idShort": 120,
+					"shortLink": "LCzZatC0"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:16:10.619Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc73867a63c5b71d515ed",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"pos": 163839
+				},
+				"card": {
+					"pos": 28671.5625,
+					"id": "5d9bc6ea761ba63d34016490",
+					"name": "Reggie Fils-Aime Receives Life Time Achievement Award from Video Game Hall of Fame",
+					"idShort": 122,
+					"shortLink": "KhwOWV49"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:16:08.424Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc7342207b145ecf1fc7c",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"pos": 229375
+				},
+				"card": {
+					"pos": 24575.625,
+					"id": "5d9bc72c43c4fe279f05d7d5",
+					"name": "Nintendo Live 2019 may be cancelled, depends on TYPHOON HAGIBIS",
+					"idShort": 123,
+					"shortLink": "mzaxNZpF"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:16:04.448Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc7312b9a485b79c0d8a0",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"name": "Nintendo Live 2019 may be cancelled, depends on Typhoon Hagibis TYPHOON HAGIBIS"
+				},
+				"card": {
+					"name": "Nintendo Live 2019 may be cancelled, depends on TYPHOON HAGIBIS",
+					"id": "5d9bc72c43c4fe279f05d7d5",
+					"idShort": 123,
+					"shortLink": "mzaxNZpF"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:16:01.067Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc72c43c4fe279f05d7d6",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"card": {
+					"id": "5d9bc72c43c4fe279f05d7d5",
+					"name": "Nintendo Live 2019 may be cancelled, depends on Typhoon Hagibis TYPHOON HAGIBIS",
+					"idShort": 123,
+					"shortLink": "mzaxNZpF"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				}
+			},
+			"type": "createCard",
+			"date": "2019-10-07T23:15:56.105Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc6f47e56cd8553726d0f",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"desc": ""
+				},
+				"card": {
+					"desc": "https://www.dualshockers.com/reggie-fils-aime-lifetime-achievement-award/",
+					"id": "5d9bc6ea761ba63d34016490",
+					"name": "Reggie Fils-Aime Receives Life Time Achievement Award from Video Game Hall of Fame",
+					"idShort": 122,
+					"shortLink": "KhwOWV49"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:15:00.352Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc6ea761ba63d34016491",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"card": {
+					"id": "5d9bc6ea761ba63d34016490",
+					"name": "Reggie Fils-Aime Receives Life Time Achievement Award from Video Game Hall of Fame",
+					"idShort": 122,
+					"shortLink": "KhwOWV49"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				}
+			},
+			"type": "createCard",
+			"date": "2019-10-07T23:14:50.661Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9bc66e182f7419b5982882",
+			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
+			"data": {
+				"old": {
+					"pos": 163839
+				},
+				"card": {
+					"pos": 16383.75,
+					"id": "5d9b9dd6b2f36471aea18baf",
+					"name": "Month of Luigi!!!",
+					"idShort": 121,
+					"shortLink": "H2qlodSJ"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				}
+			},
+			"type": "updateCard",
+			"date": "2019-10-07T23:12:46.792Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "551edddfbb0b9fc8134b72d2",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Andrew Colannino",
+				"idMemberReferrer": null,
+				"initials": "AC",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "acolannino"
+			}
+		},
+		{
+			"id": "5d9b9dd6b2f36471aea18bb0",
+			"idMemberCreator": "593df0edcdae60166d86aa3f",
+			"data": {
+				"card": {
+					"id": "5d9b9dd6b2f36471aea18baf",
+					"name": "Month of Luigi!!!",
+					"idShort": 121,
+					"shortLink": "H2qlodSJ"
+				},
+				"list": {
+					"id": "5d96a1e86dbaa129c5af1d8a",
+					"name": "Topics 10/11/19"
+				},
+				"board": {
+					"id": "5d41a23c2247e652a563e1c7",
+					"name": "Tendo Thots",
+					"shortLink": "GJRydlFx"
+				}
+			},
+			"type": "createCard",
+			"date": "2019-10-07T20:19:34.317Z",
+			"limits": {},
+			"memberCreator": {
+				"id": "593df0edcdae60166d86aa3f",
+				"activityBlocked": false,
+				"avatarHash": null,
+				"avatarUrl": null,
+				"fullName": "Zachary Purdy",
+				"idMemberReferrer": null,
+				"initials": "ZP",
+				"nonPublic": {},
+				"nonPublicAvailable": false,
+				"username": "zacharypurdy"
+			}
+		},
 		{
 			"id": "5d9b3d1140719123c080731d",
 			"idMemberCreator": "551edddfbb0b9fc8134b72d2",
@@ -19263,6 +19650,354 @@
 			"customFieldItems": []
 		},
 		{
+			"id": "5d9b9dd6b2f36471aea18baf",
+			"address": null,
+			"checkItemStates": null,
+			"closed": false,
+			"coordinates": null,
+			"creationMethod": null,
+			"dateLastActivity": "2019-10-07T23:12:46.783Z",
+			"desc": "",
+			"descData": null,
+			"dueReminder": null,
+			"idBoard": "5d41a23c2247e652a563e1c7",
+			"idLabels": [],
+			"idList": "5d96a1e86dbaa129c5af1d8a",
+			"idMembersVoted": [],
+			"idShort": 121,
+			"idAttachmentCover": null,
+			"limits": {
+				"attachments": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 1000,
+						"warnAt": 900
+					}
+				},
+				"checklists": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 500,
+						"warnAt": 450
+					}
+				},
+				"stickers": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 70,
+						"warnAt": 63
+					}
+				}
+			},
+			"locationName": null,
+			"manualCoverAttachment": false,
+			"name": "Month of Luigi!!!",
+			"pos": 16383.75,
+			"shortLink": "H2qlodSJ",
+			"isTemplate": false,
+			"badges": {
+				"attachmentsByType": {
+					"trello": {
+						"board": 0,
+						"card": 0
+					}
+				},
+				"location": false,
+				"votes": 0,
+				"viewingMemberVoted": false,
+				"subscribed": false,
+				"fogbugz": "",
+				"checkItems": 0,
+				"checkItemsChecked": 0,
+				"comments": 0,
+				"attachments": 0,
+				"description": false,
+				"due": null,
+				"dueComplete": false
+			},
+			"dueComplete": false,
+			"due": null,
+			"email": "acolannino+2jy1or958p3hl8k098y+2t437cjeddlr52hrelr+0kdif9j867@boards.trello.com",
+			"idChecklists": [],
+			"idMembers": [],
+			"labels": [],
+			"shortUrl": "https://trello.com/c/H2qlodSJ",
+			"subscribed": false,
+			"url": "https://trello.com/c/H2qlodSJ/121-month-of-luigi",
+			"cover": {
+				"idAttachment": null,
+				"color": null,
+				"idUploadedBackground": null,
+				"size": "normal",
+				"brightness": "light"
+			},
+			"attachments": [],
+			"pluginData": [],
+			"customFieldItems": []
+		},
+		{
+			"id": "5d9bc72c43c4fe279f05d7d5",
+			"address": null,
+			"checkItemStates": null,
+			"closed": false,
+			"coordinates": null,
+			"creationMethod": null,
+			"dateLastActivity": "2019-10-07T23:16:19.919Z",
+			"desc": "https://gonintendo.com/stories/346302-nintendo-live-2019-may-be-cancelled-depends-of-course-typhoon-ha",
+			"descData": {
+				"emoji": {}
+			},
+			"dueReminder": null,
+			"idBoard": "5d41a23c2247e652a563e1c7",
+			"idLabels": [],
+			"idList": "5d96a1e86dbaa129c5af1d8a",
+			"idMembersVoted": [],
+			"idShort": 123,
+			"idAttachmentCover": null,
+			"limits": {
+				"attachments": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 1000,
+						"warnAt": 900
+					}
+				},
+				"checklists": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 500,
+						"warnAt": 450
+					}
+				},
+				"stickers": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 70,
+						"warnAt": 63
+					}
+				}
+			},
+			"locationName": null,
+			"manualCoverAttachment": false,
+			"name": "Nintendo Live 2019 may be cancelled, depends on TYPHOON HAGIBIS",
+			"pos": 24575.625,
+			"shortLink": "mzaxNZpF",
+			"isTemplate": false,
+			"badges": {
+				"attachmentsByType": {
+					"trello": {
+						"board": 0,
+						"card": 0
+					}
+				},
+				"location": false,
+				"votes": 0,
+				"viewingMemberVoted": false,
+				"subscribed": false,
+				"fogbugz": "",
+				"checkItems": 0,
+				"checkItemsChecked": 0,
+				"comments": 0,
+				"attachments": 0,
+				"description": true,
+				"due": null,
+				"dueComplete": false
+			},
+			"dueComplete": false,
+			"due": null,
+			"email": "acolannino+2jy1or958p3hl8k098y+2t4434txrs89aywz7bp+17qonm6oyp@boards.trello.com",
+			"idChecklists": [],
+			"idMembers": [],
+			"labels": [],
+			"shortUrl": "https://trello.com/c/mzaxNZpF",
+			"subscribed": false,
+			"url": "https://trello.com/c/mzaxNZpF/123-nintendo-live-2019-may-be-cancelled-depends-on-typhoon-hagibis",
+			"cover": {
+				"idAttachment": null,
+				"color": null,
+				"idUploadedBackground": null,
+				"size": "normal",
+				"brightness": "light"
+			},
+			"attachments": [],
+			"pluginData": [],
+			"customFieldItems": []
+		},
+		{
+			"id": "5d9bc6ea761ba63d34016490",
+			"address": null,
+			"checkItemStates": null,
+			"closed": false,
+			"coordinates": null,
+			"creationMethod": null,
+			"dateLastActivity": "2019-10-07T23:16:08.415Z",
+			"desc": "https://www.dualshockers.com/reggie-fils-aime-lifetime-achievement-award/",
+			"descData": {
+				"emoji": {}
+			},
+			"dueReminder": null,
+			"idBoard": "5d41a23c2247e652a563e1c7",
+			"idLabels": [],
+			"idList": "5d96a1e86dbaa129c5af1d8a",
+			"idMembersVoted": [],
+			"idShort": 122,
+			"idAttachmentCover": null,
+			"limits": {
+				"attachments": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 1000,
+						"warnAt": 900
+					}
+				},
+				"checklists": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 500,
+						"warnAt": 450
+					}
+				},
+				"stickers": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 70,
+						"warnAt": 63
+					}
+				}
+			},
+			"locationName": null,
+			"manualCoverAttachment": false,
+			"name": "Reggie Fils-Aime Receives Life Time Achievement Award from Video Game Hall of Fame",
+			"pos": 28671.5625,
+			"shortLink": "KhwOWV49",
+			"isTemplate": false,
+			"badges": {
+				"attachmentsByType": {
+					"trello": {
+						"board": 0,
+						"card": 0
+					}
+				},
+				"location": false,
+				"votes": 0,
+				"viewingMemberVoted": false,
+				"subscribed": false,
+				"fogbugz": "",
+				"checkItems": 0,
+				"checkItemsChecked": 0,
+				"comments": 0,
+				"attachments": 0,
+				"description": true,
+				"due": null,
+				"dueComplete": false
+			},
+			"dueComplete": false,
+			"due": null,
+			"email": "acolannino+2jy1or958p3hl8k098y+2t442xprg5wp6lfkwi8+122s0qcpsj@boards.trello.com",
+			"idChecklists": [],
+			"idMembers": [],
+			"labels": [],
+			"shortUrl": "https://trello.com/c/KhwOWV49",
+			"subscribed": false,
+			"url": "https://trello.com/c/KhwOWV49/122-reggie-fils-aime-receives-life-time-achievement-award-from-video-game-hall-of-fame",
+			"cover": {
+				"idAttachment": null,
+				"color": null,
+				"idUploadedBackground": null,
+				"size": "normal",
+				"brightness": "light"
+			},
+			"attachments": [],
+			"pluginData": [],
+			"customFieldItems": []
+		},
+		{
+			"id": "5d9b3d1140719123c080730d",
+			"address": null,
+			"checkItemStates": null,
+			"closed": false,
+			"coordinates": null,
+			"creationMethod": null,
+			"dateLastActivity": "2019-10-07T23:16:10.610Z",
+			"desc": "",
+			"descData": null,
+			"dueReminder": -1,
+			"idBoard": "5d41a23c2247e652a563e1c7",
+			"idLabels": [],
+			"idList": "5d96a1e86dbaa129c5af1d8a",
+			"idMembersVoted": [],
+			"idShort": 120,
+			"idAttachmentCover": null,
+			"limits": {
+				"attachments": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 1000,
+						"warnAt": 900
+					}
+				},
+				"checklists": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 500,
+						"warnAt": 450
+					}
+				},
+				"stickers": {
+					"perCard": {
+						"status": "ok",
+						"disableAt": 70,
+						"warnAt": 63
+					}
+				}
+			},
+			"locationName": null,
+			"manualCoverAttachment": false,
+			"name": "Kirby has died",
+			"pos": 30719.53125,
+			"shortLink": "LCzZatC0",
+			"isTemplate": false,
+			"badges": {
+				"attachmentsByType": {
+					"trello": {
+						"board": 0,
+						"card": 0
+					}
+				},
+				"location": false,
+				"votes": 0,
+				"viewingMemberVoted": false,
+				"subscribed": false,
+				"fogbugz": "",
+				"checkItems": 0,
+				"checkItemsChecked": 0,
+				"comments": 0,
+				"attachments": 0,
+				"description": false,
+				"due": null,
+				"dueComplete": false
+			},
+			"dueComplete": false,
+			"due": null,
+			"email": "acolannino+2jy1or958p3hl8k098y+2t414xj6tzhc366os99+29p52lfgzi@boards.trello.com",
+			"idChecklists": [],
+			"idMembers": [],
+			"labels": [],
+			"shortUrl": "https://trello.com/c/LCzZatC0",
+			"subscribed": false,
+			"url": "https://trello.com/c/LCzZatC0/120-kirby-has-died",
+			"cover": {
+				"idAttachment": null,
+				"color": null,
+				"idUploadedBackground": null,
+				"size": "normal",
+				"brightness": "light"
+			},
+			"attachments": [],
+			"pluginData": [],
+			"customFieldItems": []
+		},
+		{
 			"id": "5d9a0933407fc00a93ecb21c",
 			"address": null,
 			"checkItemStates": null,
@@ -19515,92 +20250,6 @@
 			"shortUrl": "https://trello.com/c/9ksTnsrd",
 			"subscribed": false,
 			"url": "https://trello.com/c/9ksTnsrd/119-a-graphical-glitch-occurs-in-super-mario-world-whenever-the-player-goes-down-a-warp-pipe-while-yoshi-eats-a-power-up-the-effects",
-			"cover": {
-				"idAttachment": null,
-				"color": null,
-				"idUploadedBackground": null,
-				"size": "normal",
-				"brightness": "light"
-			},
-			"attachments": [],
-			"pluginData": [],
-			"customFieldItems": []
-		},
-		{
-			"id": "5d9b3d1140719123c080730d",
-			"address": null,
-			"checkItemStates": null,
-			"closed": false,
-			"coordinates": null,
-			"creationMethod": null,
-			"dateLastActivity": "2019-10-07T13:26:41.464Z",
-			"desc": "",
-			"descData": null,
-			"dueReminder": -1,
-			"idBoard": "5d41a23c2247e652a563e1c7",
-			"idLabels": [],
-			"idList": "5d96a1e86dbaa129c5af1d8a",
-			"idMembersVoted": [],
-			"idShort": 120,
-			"idAttachmentCover": null,
-			"limits": {
-				"attachments": {
-					"perCard": {
-						"status": "ok",
-						"disableAt": 1000,
-						"warnAt": 900
-					}
-				},
-				"checklists": {
-					"perCard": {
-						"status": "ok",
-						"disableAt": 500,
-						"warnAt": 450
-					}
-				},
-				"stickers": {
-					"perCard": {
-						"status": "ok",
-						"disableAt": 70,
-						"warnAt": 63
-					}
-				}
-			},
-			"locationName": null,
-			"manualCoverAttachment": false,
-			"name": "Kirby has died",
-			"pos": 98303,
-			"shortLink": "LCzZatC0",
-			"isTemplate": false,
-			"badges": {
-				"attachmentsByType": {
-					"trello": {
-						"board": 0,
-						"card": 0
-					}
-				},
-				"location": false,
-				"votes": 0,
-				"viewingMemberVoted": false,
-				"subscribed": false,
-				"fogbugz": "",
-				"checkItems": 0,
-				"checkItemsChecked": 0,
-				"comments": 0,
-				"attachments": 0,
-				"description": false,
-				"due": null,
-				"dueComplete": false
-			},
-			"dueComplete": false,
-			"due": null,
-			"email": "acolannino+2jy1or958p3hl8k098y+2t414xj6tzhc366os99+29p52lfgzi@boards.trello.com",
-			"idChecklists": [],
-			"idMembers": [],
-			"labels": [],
-			"shortUrl": "https://trello.com/c/LCzZatC0",
-			"subscribed": false,
-			"url": "https://trello.com/c/LCzZatC0/120-kirby-has-died",
 			"cover": {
 				"idAttachment": null,
 				"color": null,
