@@ -5,7 +5,6 @@ Need to cross-reference 'idList' in card against 'id' in 'lists'
 TODO:
   Get NUnit working pls
   Set up debugger for Unity
-  Encapsulate TopicIndex into something
   Popup menu on escape
     Random interval
     Load JSON path + List name
