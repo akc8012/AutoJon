@@ -18,4 +18,5 @@ TODO:
 
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
-
+	----Waddup bois intro
+	Random sounds on topic change
