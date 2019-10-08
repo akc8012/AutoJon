@@ -5,6 +5,8 @@ Need to cross-reference 'idList' in card against 'id' in 'lists'
 TODO:
   Get NUnit working pls
   Set up debugger for Unity
+  Slideshow into its own class (enable <=> disable)
+
   Popup menu on escape
     Random interval
     Load JSON path + List name
