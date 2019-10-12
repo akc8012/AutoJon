@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f1b1c0e-8a45-4ab7-ab2a-85d820b70561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/trello-data-A.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/trello-data-B.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Yeet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Yeet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/trello-data-10-7.json" beforeDir="false" />
-    </list>
+    <list default="true" id="8f1b1c0e-8a45-4ab7-ab2a-85d820b70561" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +97,7 @@
       <workItem from="1570903168702" duration="155000" />
       <workItem from="1570903813220" duration="184000" />
       <workItem from="1570904016396" duration="40000" />
-      <workItem from="1570904093035" duration="7414000" />
+      <workItem from="1570904093035" duration="8003000" />
     </task>
     <task id="LOCAL-00001" summary="added rider stuff">
       <created>1570901294555</created>
@@ -136,7 +127,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570906616241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change TrelloData to be more clear with A and B">
+      <created>1570912813365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570912813365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ugh">
+      <created>1570912823889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570912823889</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Load path on TrelloData from UI">
+      <created>1570912861811</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570912861811</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed UI zoom">
+      <created>1570913276968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570913276968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +183,11 @@
     <MESSAGE value="Added scene boi, and EscapeMenu toggle functionality" />
     <MESSAGE value="Ridery things" />
     <MESSAGE value="More / better riderythings" />
-    <option name="LAST_COMMIT_MESSAGE" value="More / better riderythings" />
+    <MESSAGE value="Change TrelloData to be more clear with A and B" />
+    <MESSAGE value="ugh" />
+    <MESSAGE value="Load path on TrelloData from UI" />
+    <MESSAGE value="Fixed UI zoom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed UI zoom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
