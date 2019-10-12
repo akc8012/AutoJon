@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1b1c0e-8a45-4ab7-ab2a-85d820b70561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/trello-data-A.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/trello-data-B.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Yeet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Yeet.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/trello-data-10-7.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +36,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TrelloData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Topics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrelloData.cs" />
+        <option value="$PROJECT_DIR$/Data/trello-data-B.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" />
       </list>
@@ -100,7 +106,7 @@
       <workItem from="1570903168702" duration="155000" />
       <workItem from="1570903813220" duration="184000" />
       <workItem from="1570904016396" duration="40000" />
-      <workItem from="1570904093035" duration="1896000" />
+      <workItem from="1570904093035" duration="7414000" />
     </task>
     <task id="LOCAL-00001" summary="added rider stuff">
       <created>1570901294555</created>
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570904461414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More / better riderythings">
+      <created>1570906616241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570906616241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +163,8 @@
     <MESSAGE value="added rider stuff" />
     <MESSAGE value="Added scene boi, and EscapeMenu toggle functionality" />
     <MESSAGE value="Ridery things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ridery things" />
+    <MESSAGE value="More / better riderythings" />
+    <option name="LAST_COMMIT_MESSAGE" value="More / better riderythings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
