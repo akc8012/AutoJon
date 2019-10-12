@@ -5,7 +5,7 @@ public class EscapeMenu : MonoBehaviour
 	[SerializeField]
 	GameObject ToggleableMenu = null;
 	
-	void FixedUpdate()
+	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 			ToggleableMenu.SetActive(!ToggleableMenu.activeSelf);

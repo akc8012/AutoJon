@@ -4,8 +4,8 @@ using System.Linq;
 public class Topics
 {
 	int Index = 0;
-	List<string> TopicList = new List<string>();
-	System.Random RandomGenerator = new System.Random();
+	readonly List<string> TopicList;
+	readonly System.Random RandomGenerator = new System.Random();
 
 	public Topics()
 	{
