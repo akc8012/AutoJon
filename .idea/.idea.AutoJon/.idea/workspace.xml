@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/Data/trello-data-B.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -97,7 +98,7 @@
       <workItem from="1570903168702" duration="155000" />
       <workItem from="1570903813220" duration="184000" />
       <workItem from="1570904016396" duration="40000" />
-      <workItem from="1570904093035" duration="8003000" />
+      <workItem from="1570904093035" duration="8302000" />
     </task>
     <task id="LOCAL-00001" summary="added rider stuff">
       <created>1570901294555</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570913276968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="workspace ignore maybe">
+      <created>1570913549465</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570913549465</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +195,8 @@
     <MESSAGE value="ugh" />
     <MESSAGE value="Load path on TrelloData from UI" />
     <MESSAGE value="Fixed UI zoom" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed UI zoom" />
+    <MESSAGE value="workspace ignore maybe" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace ignore maybe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
