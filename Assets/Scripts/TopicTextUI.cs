@@ -14,8 +14,8 @@ public class TopicTextUI : MonoBehaviour
 		Topics = new Topics();
 	}
 
-	void OnEnable() => StartCoroutine("SetTopicAfterSeconds");
-	void OnDisable() => StopCoroutine("SetTopicAfterSeconds");
+	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
+	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 
 	IEnumerator SetTopicAfterSeconds()
 	{

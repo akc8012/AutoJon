@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1b1c0e-8a45-4ab7-ab2a-85d820b70561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AutoJon.sln.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutoJon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Topics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +32,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/TrelloData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Topics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TopicTextUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" />
       </list>
     </option>
@@ -100,7 +100,7 @@
       <workItem from="1570903168702" duration="155000" />
       <workItem from="1570903813220" duration="184000" />
       <workItem from="1570904016396" duration="40000" />
-      <workItem from="1570904093035" duration="304000" />
+      <workItem from="1570904093035" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="added rider stuff">
       <created>1570901294555</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570902866783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ridery things">
+      <created>1570904461414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570904461414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="added rider stuff" />
     <MESSAGE value="Added scene boi, and EscapeMenu toggle functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scene boi, and EscapeMenu toggle functionality" />
+    <MESSAGE value="Ridery things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ridery things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

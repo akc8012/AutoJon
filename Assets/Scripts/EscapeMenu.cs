@@ -3,7 +3,7 @@ using UnityEngine;
 public class EscapeMenu : MonoBehaviour
 {
 	[SerializeField]
-	GameObject ToggleableMenu = null;
+	GameObject ToggleableMenu = default;
 	
 	void Update()
 	{
