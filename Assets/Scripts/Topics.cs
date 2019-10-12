@@ -7,10 +7,10 @@ public class Topics
 	readonly List<string> TopicList;
 	readonly System.Random RandomGenerator = new System.Random();
 
-	public Topics()
+	public Topics(string path)
 	{
 		var trelloData = new TrelloData();
-		trelloData.Load("Data/trello-data-10-7.json");
+		trelloData.Load(path);
 
 		TopicList = trelloData.GetTopics("Topics 10/11/19").ToList();
 		TopicList = ShuffleList(TopicList);

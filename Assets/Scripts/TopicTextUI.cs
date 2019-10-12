@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,12 +8,12 @@ using UnityEngine.UI;
 public class TopicTextUI : MonoBehaviour
 {
 	Text Text;
-	Topics Topics;
+	public Topics Topics { private get; set; }
 
 	void Awake()
 	{
 		Text = GetComponent<Text>();
-		Topics = new Topics();
+		Topics = new Topics("Data/trello-data-A.json");
 	}
 
 	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
