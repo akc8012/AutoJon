@@ -20,10 +20,7 @@ public class TrelloData
 		try
 		{
 			using (StreamReader sr = new StreamReader(path))
-			{
-				String line = sr.ReadToEnd();
-				return line;
-			}
+				return sr.ReadToEnd();
 		}
 		catch (IOException e)
 		{
