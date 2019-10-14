@@ -5,7 +5,10 @@ public class EscapeMenu : MonoBehaviour
 {
 	[SerializeField]
 	GameObject ToggleableMenu = default;
-	
+
+	[SerializeField]
+	TopicTextUI TopicTextUI = default;
+
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -17,6 +20,6 @@ public class EscapeMenu : MonoBehaviour
 		Debug.Log($"Loaded TrelloPath: {pathInput.text}");
 
 		var topics = new Topics(pathInput.text);
-		GameObject.Find("TopicText").GetComponent<TopicTextUI>().Topics = topics;
+		TopicTextUI.Topics = topics;
 	}
 }
