@@ -1,4 +1,3 @@
-using System.IO;
 using System.Linq;
 using SFB;
 using UnityEngine;
@@ -12,6 +11,9 @@ public class EscapeMenu : MonoBehaviour
 	[SerializeField]
 	TopicTextUI TopicTextUI = default;
 
+	string Path;
+	string ListName;
+
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -23,10 +25,23 @@ public class EscapeMenu : MonoBehaviour
 		var path = StandaloneFileBrowser.
 			OpenFilePanel(title: "Open File", directory: "", extension: "", multiselect: false)[0];
 
-		var topics = new Topics(path);
+		Path = path;
+
+		var filename = path.Split(System.IO.Path.DirectorySeparatorChar).Last();
+		fileText.text = filename;
+	}
+
+	public void OnTrelloListNameEndEdit(InputField inputField)
+	{
+		ListName = inputField.text;
+	}
+
+	public void OnLoadTopicsButtonClick()
+	{
+		var topics = new Topics(Path, ListName);
 		TopicTextUI.Topics = topics;
 
-		var filename = path.Split(Path.DirectorySeparatorChar).Last();
-		fileText.text = filename;
+		if (!TopicTextUI.gameObject.activeSelf)
+			TopicTextUI.gameObject.SetActive(true);
 	}
 }

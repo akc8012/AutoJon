@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 public class Topics
 {
@@ -7,12 +8,13 @@ public class Topics
 	readonly List<string> TopicList;
 	readonly System.Random RandomGenerator = new System.Random();
 
-	public Topics(string path)
+	public Topics(string path, string listName)
 	{
 		var trelloData = new TrelloData();
 		trelloData.Load(path);
 
-		TopicList = trelloData.GetTopics("Topics 10/11/19").ToList();
+		Debug.Log($"List name is: {listName}");
+		TopicList = trelloData.GetTopics(listName).ToList();
 		TopicList = ShuffleList(TopicList);
 		SetTopic(Index);
 	}

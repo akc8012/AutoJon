@@ -10,18 +10,19 @@ public class TopicTextUI : MonoBehaviour
 	Text Text;
 	public Topics Topics { private get; set; }
 
-	void Awake()
+	void Awake() => Text = GetComponent<Text>();
+
+	void OnEnable()
 	{
-		Text = GetComponent<Text>();
-		Topics = new Topics("Data/trello-data-A.json");
+		StartCoroutine(nameof(SetTopicAfterSeconds));
 	}
 
-	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 
 	IEnumerator SetTopicAfterSeconds()
 	{
 		const int waitSeconds = 3;
+		Debug.Log("start yah boi");
 
 		while (true)
 		{
