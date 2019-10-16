@@ -8,13 +8,14 @@ TODO:
   Slideshow into its own class (enable <=> disable)
 
   Popup menu on escape
-    Random interval
-    Load JSON path + List name
-      Error panel (for file / json errors)
+    ----Load JSON path + List name
+    Should automatically pause
+      Slidshow on load immediate next bug
+
+    Error panel (for file / json errors)
+    Slidshow interval
     Colors
-    Fullscreen button
-    Quit button
-  Pause button (regardless of popup menu state)
+    Jon sound board
 
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
