@@ -13,7 +13,6 @@ public class Topics
 		var trelloData = new TrelloData();
 		trelloData.Load(path);
 
-		Debug.Log($"List name is: {listName}");
 		TopicList = trelloData.GetTopics(listName).ToList();
 		TopicList = ShuffleList(TopicList);
 		SetTopic(Index);

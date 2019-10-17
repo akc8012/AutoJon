@@ -18,30 +18,32 @@ public class TopicTextUI : MonoBehaviour
 
 	IEnumerator SetTopicAfterSeconds()
 	{
-		const int waitSeconds = 3;
-		Debug.Log("start yah boi");
+		SetText();
 
+		const int waitSeconds = 3;
 		while (true)
 		{
 			yield return new WaitForSeconds(waitSeconds);
+
 			Topics.NextTopic();
+			SetText();
 		}
 	}
 
-	void Update()
-	{
-		HandleKeyboardInput();
-
-		if (Text.text != Topics.CurrentTopic)
-			SetText();
-	}
+	void Update() => HandleKeyboardInput();
 
 	void HandleKeyboardInput()
 	{
 		if (Input.GetKeyDown("right") || Input.GetKeyDown("space"))
+		{
 			Topics.NextTopic();
+			SetText();
+		}
 		else if (Input.GetKeyDown("left"))
+		{
 			Topics.PreviousTopic();
+			SetText();
+		}
 	}
 
 	void SetText() => Text.text = Topics.CurrentTopic;
