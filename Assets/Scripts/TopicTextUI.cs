@@ -8,14 +8,11 @@ using UnityEngine.UI;
 public class TopicTextUI : MonoBehaviour
 {
 	Text Text;
-	public Topics Topics { private get; set; }
+	public Topics Topics { get; set; }
 
 	void Awake() => Text = GetComponent<Text>();
 
-	void OnEnable()
-	{
-		StartCoroutine(nameof(SetTopicAfterSeconds));
-	}
+	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
 
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 

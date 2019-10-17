@@ -11,13 +11,21 @@ public class EscapeMenu : MonoBehaviour
 	[SerializeField]
 	TopicTextUI TopicTextUI = default;
 
-	string Path;
-	string ListName;
+	string Path, ListName;
 
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
-			ToggleableMenu.SetActive(!ToggleableMenu.activeSelf);
+			TogglePauseMenu(!ToggleableMenu.activeSelf);
+	}
+
+	void TogglePauseMenu(bool pause)
+	{
+		if (!pause && TopicTextUI.Topics == null)
+			return;
+
+		ToggleableMenu.SetActive(pause);
+		TopicTextUI.enabled = !pause;
 	}
 
 	public void OnClickTrelloPathButton(Text fileText)
@@ -31,17 +39,9 @@ public class EscapeMenu : MonoBehaviour
 		fileText.text = filename;
 	}
 
-	public void OnTrelloListNameEndEdit(InputField inputField)
-	{
+	public void OnTrelloListNameEndEdit(InputField inputField) =>
 		ListName = inputField.text;
-	}
 
-	public void OnLoadTopicsButtonClick()
-	{
-		var topics = new Topics(Path, ListName);
-		TopicTextUI.Topics = topics;
-
-		if (!TopicTextUI.gameObject.activeSelf)
-			TopicTextUI.gameObject.SetActive(true);
-	}
+	public void OnLoadTopicsButtonClick() =>
+		TopicTextUI.Topics = new Topics(Path, ListName);
 }
