@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,10 +14,9 @@ public class TopicTextUI : MonoBehaviour
 	{
 		SetText();
 
-		const int waitSeconds = 3;
 		while (true)
 		{
-			yield return new WaitForSeconds(waitSeconds);
+			yield return new WaitForSeconds(seconds: 3);
 
 			Topics.NextTopic();
 			SetText();

@@ -15,7 +15,12 @@ public class EscapeMenu : MonoBehaviour
 	[SerializeField]
 	LoadErrorText LoadErrorText = default;
 
+	[SerializeField]
+	LoadSuccessText LoadSuccessText = default;
+
 	string Path, ListName;
+
+	string GetFileName(string path) => path.Split(System.IO.Path.DirectorySeparatorChar).Last();
 
 	void Update()
 	{
@@ -38,9 +43,7 @@ public class EscapeMenu : MonoBehaviour
 			OpenFilePanel(title: "Open File", directory: "", extension: "", multiselect: false)[0];
 
 		Path = path;
-
-		var filename = path.Split(System.IO.Path.DirectorySeparatorChar).Last();
-		fileText.text = filename;
+		fileText.text = GetFileName(Path);
 	}
 
 	public void OnTrelloListNameEndEdit(InputField inputField) =>
@@ -59,6 +62,7 @@ public class EscapeMenu : MonoBehaviour
 			TopicTextUI.Topics = topics;
 
 			LoadErrorText.Text = "";
+			LoadSuccessText.SetSuccessText($"Successfully loaded '{GetFileName(Path)}' with list '{ListName}'!");
 		}
 		catch (Exception e)
 		{
