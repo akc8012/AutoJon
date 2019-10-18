@@ -7,13 +7,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class TopicTextUI : MonoBehaviour
 {
-	Text Text;
 	public Topics Topics { get; set; }
 
-	void Awake() => Text = GetComponent<Text>();
-
 	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
-
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 
 	IEnumerator SetTopicAfterSeconds()
@@ -46,5 +42,5 @@ public class TopicTextUI : MonoBehaviour
 		}
 	}
 
-	void SetText() => Text.text = Topics.CurrentTopic;
+	void SetText() => GetComponent<Text>().text = Topics.CurrentTopic;
 }
