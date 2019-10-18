@@ -4,15 +4,15 @@ using System.Linq;
 public class Topics
 {
 	int Index = 0;
-	List<string> TopicList = new List<string>();
-	System.Random RandomGenerator = new System.Random();
+	List<string> TopicList;
+	readonly System.Random RandomGenerator = new System.Random();
 
-	public Topics()
+	public void Load(string path, string listName)
 	{
 		var trelloData = new TrelloData();
-		trelloData.Load("Data/trello-data-10-7.json");
+		trelloData.Load(path);
 
-		TopicList = trelloData.GetTopics("Topics 10/11/19").ToList();
+		TopicList = trelloData.GetTopics(listName).ToList();
 		TopicList = ShuffleList(TopicList);
 		SetTopic(Index);
 	}

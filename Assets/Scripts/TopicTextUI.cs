@@ -5,44 +5,40 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class TopicTextUI : MonoBehaviour
 {
-	Text Text;
-	Topics Topics;
+	public Topics Topics { get; set; }
+	public float? TopicInterval { get; set; }
 
-	void Awake()
-	{
-		Text = GetComponent<Text>();
-		Topics = new Topics();
-	}
-
-	void OnEnable() => StartCoroutine("SetTopicAfterSeconds");
-	void OnDisable() => StopCoroutine("SetTopicAfterSeconds");
+	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
+	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 
 	IEnumerator SetTopicAfterSeconds()
 	{
-		const int waitSeconds = 3;
+		SetText();
 
 		while (true)
 		{
-			yield return new WaitForSeconds(waitSeconds);
+			yield return new WaitForSeconds(seconds: TopicInterval ?? 3);
+
 			Topics.NextTopic();
+			SetText();
 		}
 	}
 
-	void Update()
-	{
-		HandleKeyboardInput();
-
-		if (Text.text != Topics.CurrentTopic)
-			SetText();
-	}
+	void Update() => HandleKeyboardInput();
 
 	void HandleKeyboardInput()
 	{
 		if (Input.GetKeyDown("right") || Input.GetKeyDown("space"))
+		{
 			Topics.NextTopic();
+			SetText();
+		}
 		else if (Input.GetKeyDown("left"))
+		{
 			Topics.PreviousTopic();
+			SetText();
+		}
 	}
 
-	void SetText() => Text.text = Topics.CurrentTopic;
+	void SetText() => GetComponent<Text>().text = Topics.CurrentTopic;
 }
