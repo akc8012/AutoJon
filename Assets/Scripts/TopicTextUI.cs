@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TopicTextUI : MonoBehaviour
 {
 	public Topics Topics { get; set; }
+	public float? TopicInterval { get; set; }
 
 	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
@@ -16,7 +17,7 @@ public class TopicTextUI : MonoBehaviour
 
 		while (true)
 		{
-			yield return new WaitForSeconds(seconds: 3);
+			yield return new WaitForSeconds(seconds: TopicInterval ?? 3);
 
 			Topics.NextTopic();
 			SetText();

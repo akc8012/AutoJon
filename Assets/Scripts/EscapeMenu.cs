@@ -37,6 +37,9 @@ public class EscapeMenu : MonoBehaviour
 		TopicTextUI.enabled = !pause;
 	}
 
+	public void OnTopicIntervalFieldEndEdit(InputField inputField) =>
+		TopicTextUI.TopicInterval = float.Parse(inputField.text);
+
 	public void OnClickTrelloPathButton(Text fileText)
 	{
 		var path = StandaloneFileBrowser.

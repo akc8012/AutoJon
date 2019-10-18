@@ -12,10 +12,10 @@ TODO:
     ----Should automatically pause
     ----Slidshow on load immediate next bug
     ----Error panel (for file / json errors)
+    ----Slidshow interval
 
-    Slidshow interval
-    Colors
-    Jon sound board
+  Colors
+  Jon sound board
 
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
