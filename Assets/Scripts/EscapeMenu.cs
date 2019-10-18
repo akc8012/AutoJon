@@ -57,10 +57,12 @@ public class EscapeMenu : MonoBehaviour
 		{
 			topics.Load(Path, ListName);
 			TopicTextUI.Topics = topics;
+
+			LoadErrorText.Text = "";
 		}
 		catch (Exception e)
 		{
-			LoadErrorText.GetComponent<Text>().text = e.Message;
+			LoadErrorText.Text = e.Message;
 			return;
 		}
 	}

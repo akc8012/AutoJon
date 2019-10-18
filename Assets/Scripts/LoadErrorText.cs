@@ -4,7 +4,11 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class LoadErrorText : MonoBehaviour
 {
-	Text Text;
+	public string Text
+	{
+		get => GetComponent<Text>().text;
+		set => GetComponent<Text>().text = value;
+	}
 
-	void Awake() => Text = GetComponent<Text>();
+	void Start() => Text = "";
 }
