@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,13 @@ public class TopicTextUI : MonoBehaviour
 
 	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
+
+	void Awake()
+	{
+		var shuffleBox = new ShuffleBox();
+		var shuffledList = shuffleBox.Shuffle(Colors.ToList());
+		Colors = shuffledList.ToArray();
+	}
 
 	IEnumerator SetTopicAfterSeconds()
 	{
