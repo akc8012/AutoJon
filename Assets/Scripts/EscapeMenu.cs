@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using SFB;
 using UnityEngine;
@@ -10,6 +11,9 @@ public class EscapeMenu : MonoBehaviour
 
 	[SerializeField]
 	TopicTextUI TopicTextUI = default;
+
+	[SerializeField]
+	LoadErrorText LoadErrorText = default;
 
 	string Path, ListName;
 
@@ -43,5 +47,21 @@ public class EscapeMenu : MonoBehaviour
 		ListName = inputField.text;
 
 	public void OnLoadTopicsButtonClick() =>
-		TopicTextUI.Topics = new Topics(Path, ListName);
+		LoadTopics();
+
+	void LoadTopics()
+	{
+		var topics = new Topics();
+
+		try
+		{
+			topics.Load(Path, ListName);
+			TopicTextUI.Topics = topics;
+		}
+		catch (Exception e)
+		{
+			LoadErrorText.GetComponent<Text>().text = e.Message;
+			return;
+		}
+	}
 }

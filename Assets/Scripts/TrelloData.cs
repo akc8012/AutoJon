@@ -17,17 +17,8 @@ public class TrelloData
 
 	string ReadJsonFromFile(string path)
 	{
-		try
-		{
-			using (StreamReader sr = new StreamReader(path))
-				return sr.ReadToEnd();
-		}
-		catch (IOException e)
-		{
-			Debug.LogError($"The file could not be read: {e.Message}");
-		}
-
-		throw new Exception("You effed up!");
+		using (StreamReader sr = new StreamReader(path))
+			return sr.ReadToEnd();
 	}
 
 	public IEnumerable<string> GetTopics(string listName)

@@ -1,14 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
 
 public class Topics
 {
 	int Index = 0;
-	readonly List<string> TopicList;
+	List<string> TopicList;
 	readonly System.Random RandomGenerator = new System.Random();
 
-	public Topics(string path, string listName)
+	public void Load(string path, string listName)
 	{
 		var trelloData = new TrelloData();
 		trelloData.Load(path);
