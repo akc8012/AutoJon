@@ -14,10 +14,10 @@ TODO:
     ----Error panel (for file / json errors)
     ----Slidshow interval
 
-  Colors
-  Jon sound board
+	----Waddup bois intro
+  ----Colors
 
+  Jon sound board
   Boot screen (Welcome to The AutoJon, with version number?)
   Sound effects
-	----Waddup bois intro
 	Random sounds on topic change
