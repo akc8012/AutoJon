@@ -7,20 +7,21 @@ public class TopicTextUI : MonoBehaviour
 {
 	public Topics Topics { get; set; }
 	public float? TopicInterval { get; set; }
+	[SerializeField] Color[] Colors = default;
+	int ColorIndex = 0;
+	Color BackgroundColor { set => Camera.main.backgroundColor = value; }
 
 	void OnEnable() => StartCoroutine(nameof(SetTopicAfterSeconds));
 	void OnDisable() => StopCoroutine(nameof(SetTopicAfterSeconds));
 
 	IEnumerator SetTopicAfterSeconds()
 	{
-		SetText();
+		ChangeTopic(1);
 
 		while (true)
 		{
 			yield return new WaitForSeconds(seconds: TopicInterval ?? 3);
-
-			Topics.NextTopic();
-			SetText();
+			ChangeTopic(1);
 		}
 	}
 
@@ -29,16 +30,28 @@ public class TopicTextUI : MonoBehaviour
 	void HandleKeyboardInput()
 	{
 		if (Input.GetKeyDown("right") || Input.GetKeyDown("space"))
-		{
-			Topics.NextTopic();
-			SetText();
-		}
+			ChangeTopic(1);
 		else if (Input.GetKeyDown("left"))
-		{
-			Topics.PreviousTopic();
-			SetText();
-		}
+			ChangeTopic(-1);
 	}
 
-	void SetText() => GetComponent<Text>().text = Topics.CurrentTopic;
+	void ChangeTopic(int direction)
+	{
+		if (direction > 0)
+			Topics.NextTopic();
+		else
+			Topics.PreviousTopic();
+
+		GetComponent<Text>().text = Topics.CurrentTopic;
+		NextColor();
+	}
+
+	void NextColor()
+	{
+		ColorIndex++;
+		if (ColorIndex > Colors.Length - 1)
+			ColorIndex = 0;
+
+		BackgroundColor = Colors[ColorIndex];
+	}
 }
