@@ -10,9 +10,9 @@ TODO:
   Popup menu on escape
     ----Load JSON path + List name
     ----Should automatically pause
-    Slidshow on load immediate next bug
+    ----Slidshow on load immediate next bug
+    ----Error panel (for file / json errors)
 
-    Error panel (for file / json errors)
     Slidshow interval
     Colors
     Jon sound board
